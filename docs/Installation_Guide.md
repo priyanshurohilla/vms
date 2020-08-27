@@ -204,6 +204,8 @@ To view a list of tables for the `vms` database, run this command under the post
 
 We can now manipulate the database by running the appropriate sql commands under this postgres client.
 
+NOTE: When viewing the list of tables in vms database. if \dt will give the ouput of `Did not find any relations.` then `\dt[S+]` will give the desired list of tables.
+
 Make sure to exit the postgres client before proceeding to the next steps:
 
     \q
